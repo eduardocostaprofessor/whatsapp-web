@@ -1,0 +1,25 @@
+.talkheader {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+.talkheader__picture-container {
+    width: 40px;
+    height: 40px;
+    margin-left: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* border: 1px solid #beb7b7; */
+}
+
+.talkheader__picture {
+    width: 40px;
+    height: 40px;
+}
+
+.talkheader__user-container {
+    width: 70%;
+}

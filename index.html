@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="componentes/leftcol/leftcol.css">
     <link rel="stylesheet" href="componentes/headerperfil/headerperfil.css">
     <link rel="stylesheet" href="componentes/searchmessage/searchmessage.css">
-    <link rel="stylesheet" href="componentes/messagecontainer/messagecontainer.css">
+    <link rel="stylesheet" href="componentes/talkscontainer/talkscontainer.css">
     <link rel="stylesheet" href="componentes/personitem/personitem.css">
     <link rel="stylesheet" href="componentes/rightcol/rightcol.css">
+    <link rel="stylesheet" href="componentes/talkheader/talkheader.css">
+    <link rel="stylesheet" href="componentes/talkbox/talkbox.css">
 </head>
 
 <body>
@@ -39,8 +41,7 @@
                 <div class="pesquisa">
                     <label class="pesquisa__label" for="pesquisa-usuario">
                         <i class="fas fa-search pesquisa__icon"></i>
-                        <input type="text" class="pesquisa__input" id="pesquisa-usuario"
-                            placeholder="Procurar">
+                        <input type="text" class="pesquisa__input" id="pesquisa-usuario" placeholder="Procurar">
                     </label>
                 </div>
 
@@ -288,10 +289,22 @@
             </section>
 
             <section id="rightcol" class="rightcol">
-                    <span id="back" class="rightcol__back"><i class="fas fa-arrow-left"></i></span>
-                    </section> </main> </div> <script src="componentes/personitem/personitem.js">
-                    </script>
-                        <script src="componentes/rightcol/rightcol.js"></script>
+                <span id="back" class="rightcol__back"><i class="fas fa-arrow-left"></i></span>
+                <header class="talkheader">
+                    <figure class="talkheader__picture-container">
+                        <img class="talkheader__picture" src="image/usuarios/rodrigo.jpeg" alt="foto">
+                    </figure>
+                    <div class="talkheader__user-container">
+                        <h4>Rodrigo</h4>
+                    </div>
+                </header>
+                <div class="talkcontainer"></div>
+            </section>
+        </main>
+    </div>
+    <script src="componentes/personitem/personitem.js">
+    </script>
+    <script src="componentes/rightcol/rightcol.js"></script>
 </body>
 
 </html>
