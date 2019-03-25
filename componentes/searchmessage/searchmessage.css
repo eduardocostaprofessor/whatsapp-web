@@ -15,7 +15,7 @@
 }
 
 .pesquisa__icon {
-    font-size: .8rem;
+    font-size: 1.2rem;
 }
 
 .pesquisa__input {
@@ -23,7 +23,7 @@
     width: 90%;
     padding: 5px;
     font-family: 'Barlow';
-    font-size: .8rem;
+    font-size: 1.2rem;
     border: none;
     outline: none;
 }

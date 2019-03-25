@@ -25,11 +25,15 @@
     border: none;
 }
 
-.person__detail {
+.personitem__detail {
     display: flex;
     justify-content: space-between;
     width: 80%;
     padding: 10px;
-    font-size: 1rem;
     border-bottom: 1px solid #eee;
+}
+
+.personitem__name{
+    font-size: 1.2rem;
+    font-weight: bold;
 }

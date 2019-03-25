@@ -8,15 +8,15 @@
 }
 
 .headerperfil__figure {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     overflow: hidden;
     border-radius: 50%;
 }
 
 .headerperfil__image {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
 }
 
 
@@ -28,5 +28,6 @@
 }
 
 .headerperfil__icons {
+    font-size: 1.2rem;
     padding-left: 5px;
 }
