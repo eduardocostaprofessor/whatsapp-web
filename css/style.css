@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url(../fonts/Barlow/Barlow-Regular.ttf)
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Barlow';
+    color: #4b5961;
+    background-color: antiquewhite;
+}
+
+i {
+    font-weight: 100;
+    font-size: 1.3rem;
+    padding-left: 5px;
+}
+section {
+    height: 100vh;
+}
+
+section:first-of-type {
+    width: 35vw;
+}
+
+section:last-of-type {
+    width: 65vw;
+}
+section header  .icones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+section header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #eeeeee;
+}
+
+section header {
+    padding: 10px;
+}
+
+section header .perfil-foto {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* border: 1px solid #beb7b7; */
+}
+
+section header .perfil-foto img {
+    width: 40px;
+    height: 40px;
+}
+
+section #mensagem-box {
+    height: 80vh;
+}
+
+section footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 10vh;
+    background-color: #eeeeee;
+}
+
+section .sorriso {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #beb7b7;
+}
+
+section footer textarea {
+    display: block;
+    width: 85%;
+    height: 40px;
+    padding: 15px;
+    resize: none;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+
+#box-pesquisa {
+    height: 10vh;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+#box-pesquisa label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+
+#box-pesquisa label i {
+    font-size: .8rem;
+}
+
+#box-pesquisa input {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    font-family: 'Barlow';
+    font-size: .9rem;
+    border: none;
+    outline: none;
+}
+
+#lista-usuarios {
+    height: 80vh;
+    overflow: auto;
+    background-color: #fff;
+}
+
+#lista-usuarios li {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#lista-usuarios li:hover {
+    background-color: #eee;
+}
+
+
+/* ************************COLUNA MENSAGENS**************** */
+
+/* LOGIN */
+.coluna-mensagem {
+    position: relative;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 35vw;
+    
+    height: 100vh;
+    width: 65vw;
+    padding: 30px;
+    
+    background-color: #f8f9fb;
+    border-bottom: 10px solid #50ea6b;
+}
+.login-box img {
+    height: 270px;
+}
+
+.boas-vindas {
+    width: 70%;
+    text-align: center;
+    color: #4b5961;
+}
+
+.boas-vindas h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 100;
+}
+
+.boas-vindas p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 1rem;
+
+}
+
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.login-box form input {
+    display: block;
+    height: 40px;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Barlow';
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+}
+
+
+
+/* MENSAGENS */
+.mensagem-foto {
+    width: 20%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    overflow: hidden;
+}
+
+.mensagem-foto img {
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.mensagem-usuario {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border-bottom: 2px dotted #eee;
+}
+
+#cabecalho-mensagem {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cabecalho-mensagem div:last-of-type {
+    width: 90%;
+}

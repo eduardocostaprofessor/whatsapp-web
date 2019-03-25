@@ -1,0 +1,29 @@
+.pesquisa {
+    height: 10%;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.pesquisa__label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+
+.pesquisa__icon {
+    font-size: .8rem;
+}
+
+.pesquisa__input {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    font-family: 'Barlow';
+    font-size: .8rem;
+    border: none;
+    outline: none;
+}

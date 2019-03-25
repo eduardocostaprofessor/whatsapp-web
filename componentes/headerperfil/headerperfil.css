@@ -1,0 +1,32 @@
+/* mobile */
+.headerperfil {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+.headerperfil__figure {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.headerperfil__image {
+    width: 40px;
+    height: 40px;
+}
+
+
+.headerperfil__icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.headerperfil__icons {
+    padding-left: 5px;
+}

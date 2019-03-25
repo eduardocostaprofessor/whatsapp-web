@@ -1,0 +1,11 @@
+@media screen and (min-width: 1441px) {
+    .header {
+        content: '';
+        height: 127px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+        background-color: #009688;
+    }
+}

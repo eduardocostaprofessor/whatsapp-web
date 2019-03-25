@@ -1,0 +1,14 @@
+.main {
+    width: 100%;
+    height: 100%
+}
+
+@media screen and (min-width: 1441px) {
+    .main {
+        content: 'asdfasfdsa';
+        width: 1396px;
+        height: calc(100% - 38px);
+        margin: 0 auto;
+        margin-top: 38px;
+    }
+}

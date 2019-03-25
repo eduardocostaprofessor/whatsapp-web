@@ -1,0 +1,35 @@
+.personitem {
+    display: flex;
+    justify-content: space-between;
+    height: 12%;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.personitem:hover {
+    background-color: #eee;
+}
+.personitem__box { padding: 10px; }
+
+.personitem__avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    overflow: hidden;
+}
+
+.personitem__avatar-image {
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+
+.person__detail {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #eee;
+}
