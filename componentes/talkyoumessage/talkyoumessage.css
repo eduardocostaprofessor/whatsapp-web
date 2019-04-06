@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Dosis-Regular';
+    src: url(../../fonts/Dosis/Dosis-Regular.ttf);
+}
+
+.talkyoumessage {
+    float: left;
+    clear: both;
+    max-width: 272px;
+    margin-bottom: 5px;
+    padding: 8px;
+    font-family: 'Dosis-Regular';
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: #f9f8f7;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .talkyoumessage {
+        max-width: 610px;
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+    
+}

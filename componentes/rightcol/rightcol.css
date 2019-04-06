@@ -1,13 +1,13 @@
 .rightcol {
     position: absolute;
     top: 0;
-    /* left: 0; */
+    left: 0;
     left: 100%;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     background-color: #faebd6;
-    transition: left .4s;
-    transition-delay: 0.15s;
+    transition: left .3s;
+    /* transition-delay: 0.15s; */
 }
 
 .rightcol__back {
@@ -18,4 +18,12 @@
     font-weight: bold;
     /* color: #149cd7; */
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .rightcol__back {
+        font-size: 1.8rem;
+        top: 30px;
+        left: 20px;
+    }
 }

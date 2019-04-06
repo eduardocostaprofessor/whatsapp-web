@@ -1,7 +1,8 @@
 .talkheader {
     display: flex;
     justify-content: space-between;
-    height: 10%;
+    /* align-items: center;  */
+    height: 10vh;
     padding: 10px;
     background-color: #eeeeee;
 }
@@ -22,4 +23,23 @@
 
 .talkheader__user-container {
     width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+    .talkheader {
+        padding: 20px;
+    }
+    .talkheader__picture-container {
+        width: 65px;
+        height: 65px;
+        margin-left: 50px;
+    }
+    .talkheader__picture {
+        width: 65px;
+        height: 65px;
+    }
+    .talkheader__user-container {
+        width: 80%;
+        font-size: 1.5rem;
+    }
 }

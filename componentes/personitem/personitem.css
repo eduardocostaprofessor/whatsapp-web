@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     height: 12%;
+    padding: 10px;
     cursor: pointer;
     background-color: #fff;
 }
@@ -9,7 +10,10 @@
 .personitem:hover {
     background-color: #eee;
 }
-.personitem__box { padding: 10px; }
+
+/* .personitem__box {
+    padding: 10px;
+} */
 
 .personitem__avatar {
     width: 50px;
@@ -29,11 +33,36 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
-    padding: 10px;
+    padding: 0px;
     border-bottom: 1px solid #eee;
 }
 
-.personitem__name{
+.personitem__name {
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .personitem {
+        padding: 20px;
+    }
+
+    .personitem__box {
+        padding: 10px;
+    }
+    .personitem__avatar {
+        width: 75px;
+        height: 75px;
+    }
+    .personitem__avatar-image {
+        width: 75px;
+        height: 75px;
+    }
+    .personitem__detail {
+        width: 85%;
+        padding: 20px;
+    }
+    .personitem__name, .personitem__detail {
+        font-size: 1.8rem;
+    }
 }

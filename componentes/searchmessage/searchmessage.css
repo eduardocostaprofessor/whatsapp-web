@@ -1,10 +1,10 @@
-.pesquisa {
-    height: 10%;
+.searchmessage {
+    height: 10vh;
     padding: 10px;
     background-color: #f8f8f8;
 }
 
-.pesquisa__label {
+.searchmessage__label {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -14,11 +14,11 @@
     border-radius: 25px;
 }
 
-.pesquisa__icon {
+.searchmessage__icon {
     font-size: 1.2rem;
 }
 
-.pesquisa__input {
+.searchmessage__input {
     display: block;
     width: 90%;
     padding: 5px;
@@ -26,4 +26,20 @@
     font-size: 1.2rem;
     border: none;
     outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    .searchmessage {
+        padding: 20px;
+    }
+    .searchmessage__label {
+        padding: 10px 20px;
+    }
+    .searchmessage__icon {
+        font-size: 2rem;
+    }
+    .searchmessage__input {
+        display: block;
+        font-size: 1.5rem;
+    }
 }

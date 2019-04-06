@@ -1,0 +1,50 @@
+.talkfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 10vh;
+    background-color: #eeeeee;
+}
+
+.talkfooter__sorriso {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #beb7b7;
+}
+
+.talkfooter__input-message {
+    display: block;
+    width: 75%;
+    height: 40px;
+    padding: 15px;
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+
+.talkfooter__enter {
+    font-size: 1.5rem;
+}
+
+.talkfooter__keyboard {
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .talkfooter__input-message {
+        width: 80%;
+        height: 50px;
+        padding: 15px;
+        font-size: 1.5rem;
+    }
+    .talkfooter__enter {
+        font-size: 2.2rem;
+    }
+    .talkfooter__keyboard {
+        font-size: 2.2rem;
+    }
+}

@@ -13,11 +13,14 @@
     <link rel="stylesheet" href="componentes/leftcol/leftcol.css">
     <link rel="stylesheet" href="componentes/headerperfil/headerperfil.css">
     <link rel="stylesheet" href="componentes/searchmessage/searchmessage.css">
-    <link rel="stylesheet" href="componentes/talkscontainer/talkscontainer.css">
+    <link rel="stylesheet" href="componentes/messagecontainer/messagecontainer.css">
     <link rel="stylesheet" href="componentes/personitem/personitem.css">
     <link rel="stylesheet" href="componentes/rightcol/rightcol.css">
     <link rel="stylesheet" href="componentes/talkheader/talkheader.css">
     <link rel="stylesheet" href="componentes/talkbox/talkbox.css">
+    <link rel="stylesheet" href="componentes/talkyoumessage/talkyoumessage.css">
+    <link rel="stylesheet" href="componentes/talkimessage/talkimessage.css">
+    <link rel="stylesheet" href="componentes/talkfooter/talkfooter.css">
 </head>
 
 <body>
@@ -25,8 +28,8 @@
 
         <header class="header"></header>
         <main class="main">
+            <!-- LISTA DE USUÁRIOS -->
             <section class="leftcol">
-
                 <header class="headerperfil">
                     <figure class="headerperfil__figure">
                         <img class="headerperfil__image" src="image/perfil.jpeg" alt="foto">
@@ -38,10 +41,11 @@
                     </div>
                 </header>
 
-                <div class="pesquisa">
-                    <label class="pesquisa__label" for="pesquisa-usuario">
-                        <i class="fas fa-search pesquisa__icon"></i>
-                        <input type="text" class="pesquisa__input" id="pesquisa-usuario" placeholder="Procurar">
+                <div class="searchmessage">
+                    <label class="searchmessage__label" for="searchmessage-usuario">
+                        <i class="fas fa-search searchmessage__icon"></i>
+                        <input type="text" class="searchmessage__input" id="searchmessage-usuario"
+                            placeholder="Procurar">
                     </label>
                 </div>
 
@@ -287,7 +291,7 @@
                     </ul>
                 </div>
             </section>
-
+            <!-- COLUNA DE MENSAGENS -->
             <section id="rightcol" class="rightcol">
                 <span id="back" class="rightcol__back"><i class="fas fa-arrow-left"></i></span>
                 <header class="talkheader">
@@ -298,7 +302,46 @@
                         <h4>Rodrigo</h4>
                     </div>
                 </header>
-                <div class="talkcontainer"></div>
+
+                <!-- MENSAGENS #dbf8c6-->
+                <div class="talkbox">
+                    <p class="talkbox__title">conversas</p>
+
+                    <p class="talkyoumessage">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cum itaque
+                        recusandae ad explicabo quibusdam obcaecati iure, quos nobis in nostrum magnam ipsa aliquam
+                        fugiat cumque, at maxime ratione iste nam.</p>
+
+                    <p class="talkimessage">Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="talkimessage">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione aperiam
+                        optio explicabo vel nostrum, atque incidunt? Aut, illo aliquid corrupti
+                        doloribus dolor, explicabo vel facilis nisi deserunt commodi optio.
+                    </p>
+                    <p class="talkimessage">Lorem ipsum dolor sit amet </p>
+
+                    <p class="talkyoumessage">Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="talkimessage">Lorem ipsum dolor sit amet </p>
+
+                    <p class="talkyoumessage">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ratione aperiam
+                        optio explicabo vel nostrum, atque incidunt? Aut, illo aliquid corrupti
+                        doloribus dolor, explicabo vel facilis nisi deserunt commodi optio.
+                    </p>
+                    <p class="talkyoumessage">Lorem ipsum dolor sit amet </p>
+                    <p class="talkyoumessage">Lorem ipsum dolor sit amet </p>
+                    <p class="talkyoumessage">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum itaque
+                        recusandae ad explicabo quibusdam obcaecati iure, quos nobis in nostrum magnam ipsa aliquam
+                        fugiat cumque, at maxime ratione iste nam.</p>
+
+                </div>
+
+                <footer class="talkfooter">
+                    <i class="far fa-keyboard talkfooter__keyboard"></i>
+                    <textarea class="talkfooter__input-message" id="mensagem-text"
+                        placeholder="Digite uma mensagem"></textarea>
+                    <i class="far fa-arrow-alt-circle-right talkfooter__enter"></i>
+                </footer>
             </section>
         </main>
     </div>
