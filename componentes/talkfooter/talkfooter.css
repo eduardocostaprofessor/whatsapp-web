@@ -2,8 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 15%; */
     padding: 10px;
-    height: 10vh;
+    
     background-color: #eeeeee;
 }
 
@@ -18,7 +23,7 @@
     display: block;
     width: 75%;
     height: 40px;
-    padding: 15px;
+    padding: 10px;
     font-size: 1rem;
     resize: none;
     outline: none;
@@ -46,5 +51,26 @@
     }
     .talkfooter__keyboard {
         font-size: 2.2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .talkfooter__input-message {
+        width: 90%;
+        height: 40px;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .talkfooter__keyboard, .talkfooter__enter {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .talkfooter {
+        position: absolute;
+        width: 65%;
+        left: 35%;
+        bottom: 0;
     }
 }

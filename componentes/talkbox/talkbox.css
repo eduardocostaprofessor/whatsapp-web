@@ -1,8 +1,9 @@
 .talkbox {
     width: 100%;
-    height: 80%;
+    height: 78%;
     padding: 10px;
     overflow: auto;
+    /* border: 1px solid green;    */
 }
 
 .talkbox__title {
@@ -15,16 +16,34 @@
     border-radius: 8px;
 }
 
-
 @media screen and (min-width: 768px) {
     .talkbox {
         padding: 20px;
     }
-
     .talkbox__title {
         width: 150px;
         padding: 10px;
         font-size: 1.5rem;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .talkbox {
+        height: 65%;
+        /* border: 1px solid red; */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .talkbox {
+        padding: 10px;
+        height: 84%; /*gambi ainda*/
+    }
+    .talkbox__title {
+        width: 100px;
+        padding: 5px;
+        font-size: 1rem;
+        margin-bottom: 10px;
     }
 }

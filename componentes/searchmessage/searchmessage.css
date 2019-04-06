@@ -1,5 +1,6 @@
 .searchmessage {
-    height: 10%;
+    /* height: 10%; */
+    height: auto;
     padding: 10px;
     background-color: #f8f8f8;
 }
@@ -41,5 +42,22 @@
     .searchmessage__input {
         display: block;
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .searchmessage {
+        padding: 5px;
+    }
+    .searchmessage__label {
+        padding: 5px 10px;
+    }
+    .searchmessage__icon {
+        font-size: 1rem;
+    }
+    .searchmessage__input {
+        width: 95%;
+        padding: 5px;
+        font-size: 1rem;
     }
 }

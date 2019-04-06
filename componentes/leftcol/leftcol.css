@@ -4,3 +4,17 @@
     overflow: auto;
 }
 
+@media screen and (min-width: 992px) {
+    .leftcol {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .leftcol {
+        /* display: static; */
+        /* width: auto; */
+        /* margintop: 38px; */
+        transition: none;
+    }
+}

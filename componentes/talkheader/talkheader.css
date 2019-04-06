@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     /* align-items: center;  */
-    height: 10%;
+    /* height: 10%; */
     padding: 10px;
     background-color: #eeeeee;
 }
@@ -41,5 +41,38 @@
     .talkheader__user-container {
         width: 80%;
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    .talkheader {
+        height: 105px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .talkheader {
+        height: auto;
+        padding: 10px;
+    }
+
+    .talkheader__picture-container {
+        width: 45px;
+        height: 45px;
+        margin-left: 50px;
+    }
+    .talkheader__picture {
+        width: 45px;
+        height: 45px;
+    }
+    .talkheader__user-container {
+        width: 85%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .talkheader__picture-container {
+        margin-left: 0;
     }
 }

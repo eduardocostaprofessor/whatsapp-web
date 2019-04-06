@@ -6,5 +6,8 @@ for (let index = 0; index < itens.length; index++) {
 }
 
 function iniciarMensagem() {
-    document.getElementById("rightcol").style.left = 0
+    if(screen.width < 992){
+        document.getElementById("rightcol").style.left = 0
+    }
+    
 }

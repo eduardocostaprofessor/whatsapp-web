@@ -5,3 +5,10 @@
     background-color: #fff;
     
 }
+
+@media screen and (min-width: 1441px) {
+    .messagecontainer {
+        height: auto;
+    }
+   
+}
